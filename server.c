@@ -99,7 +99,7 @@ int main(int argc, char *argv[])
 				}
 				else if(fileLen < sizeof(fileData))
 				{
-					printf("Arquivo Enviando\n\n");
+					printf("Arquivo Enviado\n\n");
 					fclose(file);
         			break;
 				}
